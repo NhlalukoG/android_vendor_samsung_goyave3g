@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/samsung/goyave3g/proprietary/media,system/media)
 
-# usr files
-# PRODUCT_COPY_FILES += \
-#     $(call find-copy-subdir-files,*,vendor/samsung/goyave3g/proprietary/usr,system/usr)
+# USR files
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/samsung/goyave3g/proprietary/usr,system/usr)
 
